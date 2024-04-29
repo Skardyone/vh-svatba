@@ -22,8 +22,8 @@ function Hero() {
           minSize={0.6}
           maxSize={2.5}
           particleDensity={100}
-          className="w-full h-full z-0"
-          particleColor="#CCE2CB"
+          className="w-full h-full -z-10"
+          particleColor="#a67c00"
         />
       </div>
     </div>

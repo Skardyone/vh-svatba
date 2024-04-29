@@ -18,6 +18,8 @@ const config = {
       'white': '#ffffff',
       'bezova': '#ECE5C7',
       'zelena': '#CCE2CB',
+      'zlata': '#a67c00',
+      
     },
     container: {
       center: true,

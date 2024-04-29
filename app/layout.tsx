@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "A+H",
-  description: "Svatební web Adama a Heduš",
+  title: "V+H",
+  description: "Svatební web Verunky a Honzíka",
 };
 
 export default function RootLayout({

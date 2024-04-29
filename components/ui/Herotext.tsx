@@ -10,10 +10,10 @@ function Herotext() {
       <div className="z-50 flex flex-col lg:flex-row text-center justify-center items-center gap-0 md:gap-5  lg:gap-16">
         <div className="flex flex-col items-center">
           <span className="text-[6rem] lg:text-[11rem] ">
-            Hedvika
+            Veronika
           </span>
-          <span className="relative -mt-16 lg:-mt-0 lg:-top-24 text-[5rem] md:text-[5rem] lg:text-[4rem]">
-            Černá
+          <span className="relative -mt-16 lg:-mt-0 lg:-top-16 text-[5rem] md:text-[5rem] lg:text-[4rem]">
+            Edelová
           </span>
         </div>
         <span className="text-[3rem] md:text-[5rem] lg:text-[7rem] flex flex-col items-center justify-center">
@@ -21,10 +21,10 @@ function Herotext() {
         </span>
         <div className="flex flex-col items-center">
           <span className="text-[6rem] lg:text-[11rem] ">
-            Adam
+            Jan
           </span>
-          <span className="relative -mt-16 lg:-mt-0 lg:-top-24 text-[5rem] md:text-[5rem] lg:text-[4rem]">
-            Javornícky
+          <span className="relative -mt-16 lg:-mt-0 lg:-top-16 text-[5rem] md:text-[5rem] lg:text-[4rem]">
+            Matoušík
           </span>
         </div>
       </div>

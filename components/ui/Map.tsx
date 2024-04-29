@@ -21,12 +21,12 @@ const Map = () => {
         const { Map } = await loader.importLibrary("maps");
         const { AdvancedMarkerElement } = await loader.importLibrary("marker") as google.maps.MarkerLibrary;
         const position = { 
-                lat:49.88310623168945,
-                lng: 13.637847900390625
+                lat:49.7972871,
+                lng:13.5328098
         }
         const markerPosition = {
-            lat:49.88310623168945,
-                lng: 13.637847900390625
+            lat:49.7972871,
+                lng:13.5328098
         }
         const mapOptions: google.maps.MapOptions = {
             center: position,
