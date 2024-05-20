@@ -20,9 +20,9 @@ function Areal() {
           <p>
             Bušovický dvůr se nachází na kraji obce Bušovice (Bušovice 103). Pro
             svatební den je k dispozici celý areál a je tedy zajištěna
-            dostatečná kapacita pro parkování. Ubytování v objektech není možné
+            dostatečná kapacita pro parkování. Ubytování v objektu není možné
             nabídnout všem, a tak je zde možné přenocovat ve vlastním stanu nebo
-            obytném autě na louce. Po 22 hodině platí v obci noční klid, k
+            obytném autě na louce. Po 22. hodině platí v obci noční klid, k
             dispozici nám však budou neomezeně vnitřní prostory. Odvoz z areálu
             nebude zajišťen. Děkujeme za pochopení.
           </p>

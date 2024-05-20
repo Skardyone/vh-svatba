@@ -15,13 +15,12 @@ function About() {
      
       <div className="h-[90vh] md:h-[70vh] xl:h-[70vh] w-full bg-zlata/40 flex flex-col justify-center items-center lg:py-8 rounded-md">
         <p className="w-full p-6 md:p-10 lg:w-[70%] text-base md:text-xl lg:text-xl font-light tracking-wider">
-          Vítejte na našem svatebním webu, kde jsme se rozhodli sdílet svou
-          cestu k oltáři. Naše společná cesta začala před několika lety, v době,
-          kdy se uzavíraly hranice po celém světě. Aniž bychom jeden z nás
-          tušili, že si jednoho dne řekneme své ANO, jsme k sobě našli cestu.
+          Vítejte na našem svatebním webu, na kterém jsme se rozhodli sdílet svou
+          cestu k oltáři. Naše společná cesta začala před několika lety v době,
+          kdy se uzavíraly hranice po celém světě. Ani jeden z nás v té době netušil, že si k sobě najdeme cestu a jednoho dne si řekneme své ANO.
           Ačkoli se setkala duše sportovce s duší umělkyně, vznikla fúze, která
-          si libuje v chalupaření, v péči o své dva čtyřnohé kamarády a sdílejí
-          stejné hodnoty. Takže…naše milá rodino a přátelé, děkujeme, že s námi
+          si libuje v chalupaření, v péči o své dva čtyřnohé kamarády a sdílí
+          stejné hodnoty. Takže... naše milá rodino a přátelé, děkujeme, že s námi
           oslavíte náš jedinečný den.
         </p>
         <p className="w-full lg:w-[60%] text-base md:text-xl lg:text-xl font-light text-right px-8">

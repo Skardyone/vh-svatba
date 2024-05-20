@@ -7,7 +7,9 @@ function Dresscode() {
         dresscode
       </h2>
       <p>
-      Doufáme v krásné počasí, takže tomu je nutné přizpůsobit i róbu. Pánové mohou nechat saka doma a pohodlně si užít den v košili a kalhotách. Dámy si určitě poradí a najdou ve svém šatníku stylové šaty. Svatební barvy máme, ale ty necháme pro výzdobu.
+        Doufáme v krásné počasí, proto mohou pánové nechat saka doma a pohodlně
+        si užít den v košili a kalhotách. Dámy si určitě poradí a najdou ve svém
+        šatníku stylové šaty. Svatební barvy máme, ale ty necháme pro výzdobu.
       </p>
       <p className="text-center">Milé dámy, bílá patří nevěstě!</p>
     </div>
