@@ -36,8 +36,8 @@ function About() {
             className="hidden lg:block object-cover object-center md:object-center rounded-md ring-4 ring-bezova ring-offset-8 ring-opacity-50"
           />
           {/*carousel*/}
-          <Carousel opts={{ loop:true}} className="relative lg:hidden w-full h-[60vh] rounded-md">
-            <CarouselContent className="w-full h-[60vh]">
+          <Carousel opts={{ loop:true}} className="relative lg:hidden w-full h-[60vh] md:h-[80vh] rounded-md">
+            <CarouselContent className="w-full h-[60vh] md:h-[80vh]">
               <CarouselItem className="h-full w-full">
                 <div className="w-full h-full relative">
                   <Image

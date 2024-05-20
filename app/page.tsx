@@ -10,7 +10,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-between font-now">
+    <main className="flex flex-col items-center justify-between font-cormorant font-light">
       <Hero/>
       <About/>
       <Day/>

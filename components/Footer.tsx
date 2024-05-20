@@ -5,7 +5,7 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <div className="w-full bg-zlata/40 flex flex-col items-center justify-evenly overflow-hidden">
+    <div className="w-full bg-zlata/40 flex flex-col items-center justify-evenly overflow-hidden pb-8">
       <div className="w-full flex flex-col items-center px-8 xl:px-0 lg:w-1/2 xl:text-xl text-center font-light border-b-2 border-white pb-12 xl:py-8">
         <div className="relative w-[80px] h-[80px] md:w-[100px] md:h-[100px] lg:w-[100px] lg:h-[100px] xl:w-[100px] xl:h-[100px] my-8">
           {/* <FaRegCalendarAlt /> */}
@@ -16,7 +16,7 @@ function Footer() {
             className="object-center object-contain"
           />
         </div>
-        <h3 className="my-6 xl:my-12 font-svarge font-semibold xl:text-[3rem]">
+        <h3 className="my-6 xl:my-12 font-bellefair font-semibold xl:text-[3rem]">
           KDYŽ SI NEVÍŠ RADY S DARY
         </h3>
         <p>
@@ -28,7 +28,7 @@ function Footer() {
           svoji milou nevěstu.
         </p>
       </div>
-      <div className="flex flex-col items-center justify-center font-semibold font-svarge gap-4 xl:text-[2rem]">
+      <div className="flex flex-col items-center justify-center font-semibold font-bellefair p-6 gap-4 xl:text-[2rem]">
         <span>Prosím vyplňte formulář zde:</span>
         <Link href={"/dotaznik"}>
           <Button

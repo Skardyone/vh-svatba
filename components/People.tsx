@@ -28,7 +28,7 @@ const people = [
 function People() {
   return (
     <>
-      <h3 className="uppercase text-[2rem] font-svarge xl:text-[4rem]  pt-16 ">
+      <h3 className="uppercase text-[2rem] font-bellefair xl:text-[4rem]  pt-16 ">
         Důležité osoby
       </h3>
       <div className="hidden xl:flex h-[60vh] w-full  flex-row items-center justify-center">

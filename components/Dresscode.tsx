@@ -3,7 +3,7 @@ import React from "react";
 function Dresscode() {
   return (
     <div className="w-full md:w-3/4 xl:w-3/4 font-light text-base md:text-xl xl:text-xl px-6 xl:px-0 my-6 py-8 xl:py-12 space-y-12 border-t-2 border-zlata/40">
-      <h2 className="text-center uppercase  m-4 text-[2rem] xl:text-[5rem] font-svarge">
+      <h2 className="text-center uppercase m-4 text-[2rem] xl:text-[5rem] font-bellefair">
         dresscode
       </h2>
       <p>

@@ -20,12 +20,12 @@ import Image from "next/image";
 function Day() {
   return (
     <div className=" xl:h-screen w-full py-6 px-8 xl:py-16 flex flex-col items-center xl:space-y-10">
-      <h2 className="text-center uppercase  m-4 text-[2rem] xl:text-[5rem] font-svarge">
+      <h2 className="text-center uppercase  m-4 text-[2rem] xl:text-[5rem] font-bellefair">
         svatební den
       </h2>
       <div className="w-full h-[25vh] xl:h-[30vh] flex flex-row xl:flex-row items-center justify-around">
         <div className="h-full w-1/2 flex flex-col items-center justify-center xl:justify-around space-y-2 xl:space-y-5">
-          <span className="text-[1.5rem] ">Datum</span>
+          <span className="text-[1.5rem] font-bold">Datum</span>
           <div className="relative w-[60px] h-[60px] md:w-[100px] md:h-[100px] xl:w-[150px] xl:h-[150px]">
             {/* <FaRegCalendarAlt /> */}
             <Image
@@ -40,7 +40,7 @@ function Day() {
           </div>
         </div>
         <div className="h-full w-1/2 flex flex-col items-center justify-center xl:justify-around space-y-2 xl:space-y-5">
-          <span className="text-[1.5rem] ">Místo</span>
+          <span className="text-[1.5rem] font-bold">Místo</span>
           <div className="relative w-[60px] h-[60px] md:w-[100px] md:h-[100px] xl:w-[150px] xl:h-[150px]">
             {/* <FaRegCalendarAlt /> */}
             <Image
@@ -66,7 +66,7 @@ function Day() {
           <div className="h-8 w-8 bg-bezova rounded-full border-[5px] border-white"></div>
           <div className="h-8 w-8 bg-bezova rounded-full border-[5px] border-white"></div>
         </div>
-        <div className="flex h-screen flex-col justify-stretch xl:grid xl:grid-cols-8 xl:gap-0 xl:py-8 ">
+        <div className="flex h-screen lg:h-auto flex-col justify-stretch xl:grid xl:grid-cols-8 xl:gap-0 xl:py-8 ">
           <div className="h-full w-full flex flex-row xl:flex-col items-center justify-start gap-5 xl:gap-0">
             <div className="relative w-[60px] h-[60px] md:w-[100px] md:h-[100px] lg:w-[80px] lg:h-[80px] xl:w-[100px] xl:h-[100px]">
               {/* <FaRegCalendarAlt /> */}
@@ -173,7 +173,7 @@ function Day() {
             <div className="relative w-[60px] h-[60px] md:w-[100px] md:h-[100px] lg:w-[80px] lg:h-[80px]  xl:w-[100px] xl:h-[100px]">
               {/* <FaRegCalendarAlt /> */}
               <Image
-                src="/ikony/fotokoutek.png"
+                src="/ikony/hry.png"
                 alt="misto"
                 fill
                 className="object-center object-contain"
@@ -187,7 +187,7 @@ function Day() {
             <div className="relative w-[60px] h-[60px] md:w-[100px] md:h-[100px] lg:w-[80px] lg:h-[80px]  xl:w-[100px] xl:h-[100px]">
               {/* <FaRegCalendarAlt /> */}
               <Image
-                src="/ikony/party.png"
+                src="/ikony/gril.png"
                 alt="misto"
                 fill
                 className="object-center object-contain"
@@ -195,7 +195,7 @@ function Day() {
             </div>
             <div className="flex flex-col items-center justify-center text-left xl:text-center  md:text-[1.5rem] xl:text-[1rem] 2xl:text-[1.6rem]">
               <p>
-                Grillování
+                Grilování
               </p>
             </div>
           </div>
@@ -203,7 +203,7 @@ function Day() {
             <div className="relative w-[60px] h-[60px] md:w-[100px] md:h-[100px] lg:w-[80px] lg:h-[80px]  xl:w-[100px] xl:h-[100px]">
               {/* <FaRegCalendarAlt /> */}
               <Image
-                src="/ikony/party.png"
+                src="/ikony/prekvapeni.png"
                 alt="misto"
                 fill
                 className="object-center object-contain"

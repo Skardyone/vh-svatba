@@ -1,3 +1,4 @@
+import { Bellefair } from "next/font/google";
 import type { Config } from "tailwindcss"
 const colors = require("tailwindcss/colors");
 const {
@@ -35,6 +36,8 @@ const config = {
       lovan : ["Lovan","sans-serif"],
       celine : ["Celine Sans","sans-serif"],
       svarge : ["Svarge","sans-serif"],
+      bellefair : ["Bellefair","serif"],
+      cormorant : ["Cormorant Garamond","serif"]
     },
     extend: {
       keyframes: {
