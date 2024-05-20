@@ -7,15 +7,15 @@ function Hero() {
     <div className="h-[100svh] w-full flex flex-col items-center justify-center py-8 lg:pt-32">
       <div
         id="bg"
-        className="hidden lg:block w-full h-full absolute top-0 left-0 bg-[url('/uvod.png')] bg-no-repeat bg-top bg-cover opacity-30"
+        className="hidden lg:block w-full h-full absolute top-0 left-0 bg-[url('/uvod.png')] bg-no-repeat bg-top bg-cover"
       ></div>
       <div
         id="bg"
-        className="w-full h-full lg:hidden absolute top-0 left-0 bg-[url('/eucalypto_mobil.png')] bg-no-repeat bg-top bg-cover opacity-30"
+        className="w-full h-full lg:hidden absolute top-0 left-0 bg-[url('/uvodmobil.png')] bg-no-repeat bg-top bg-cover"
       ></div>
       <Herotext />
 
-      <div className="w-full absolute inset-0 h-screen">
+      <div className="w-full absolute inset-0 h-screen opacity-40">
         <SparklesCore
           id="tsparticlesfullpage"
           background="transparent"

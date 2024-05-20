@@ -103,7 +103,7 @@ export const SparklesCore = (props: ParticlesProps) => {
               },
               collisions: {
                 absorb: {
-                  speed: 2,
+                  speed: 1,
                 },
                 bounce: {
                   horizontal: {
