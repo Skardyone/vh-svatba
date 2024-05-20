@@ -52,7 +52,7 @@ function About() {
                   <Image
                     src={"/foto2.jpg"}
                     alt="foto2"
-                    className="object-center object-cover"
+                    className="object-center md:object-bottom object-cover"
                     fill
                   />
                 </div>
@@ -72,7 +72,7 @@ function About() {
                   <Image
                     src={"/foto4.jpg"}
                     alt="foto4"
-                    className="object-center object-cover"
+                    className="object-center md:object-bottom object-cover"
                     fill
                   />
                 </div>
