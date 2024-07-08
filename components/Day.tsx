@@ -55,7 +55,7 @@ function Day() {
           </div>
         </div>
       </div>
-      <div className="xl:py-8 flex space-x-10 xl:space-x-0 xl:gap-0 flex-row lg:py-16 xl:flex-col">
+      <div className="xl:py-8 flex xl:w-[90%] space-x-10 xl:space-x-0 xl:gap-0 flex-row lg:py-16 xl:flex-col">
         <div className="flex flex-col h-screen w-1 xl:w-full xl:h-1 bg-bezova xl:flex-row items-center justify-around">
           <div className="h-8 w-8 bg-bezova rounded-full border-[5px] border-white"></div>
           <div className="h-8 w-8 bg-bezova rounded-full border-[5px] border-white"></div>
@@ -66,7 +66,7 @@ function Day() {
           <div className="h-8 w-8 bg-bezova rounded-full border-[5px] border-white"></div>
           <div className="h-8 w-8 bg-bezova rounded-full border-[5px] border-white"></div>
         </div>
-        <div className="flex h-screen lg:h-auto flex-col justify-stretch xl:grid xl:grid-cols-8 xl:gap-0 xl:py-8 ">
+        <div className="flex h-screen lg:h-auto flex-col justify-stretch xl:grid xl:grid-cols-8 xl:gap-2 xl:py-8">
           <div className="h-full w-full flex flex-row xl:flex-col items-center justify-start gap-5 xl:gap-0">
             <div className="relative w-[60px] h-[60px] md:w-[100px] md:h-[100px] lg:w-[80px] lg:h-[80px] xl:w-[100px] xl:h-[100px]">
               {/* <FaRegCalendarAlt /> */}
@@ -155,7 +155,24 @@ function Day() {
             <div className="relative w-[60px] h-[60px] md:w-[100px] md:h-[100px] lg:w-[80px] lg:h-[80px]  xl:w-[100px] xl:h-[100px]">
               {/* <FaRegCalendarAlt /> */}
               <Image
-                src="/ikony/tanec.png"
+                src="/ikony/kytice.png"
+                alt="misto"
+                fill
+                className="object-center object-contain"
+              />
+            </div>
+            <div className="flex flex-col items-center justify-center text-left xl:text-center md:text-[1.5rem] xl:text-[1rem] 2xl:text-[1.6rem]">
+              <p>
+                Kytice
+              </p>
+            </div>
+          </div>
+          
+          <div className="h-full w-full  flex flex-row xl:flex-col items-center justify-start gap-5 xl:gap-0">
+            <div className="relative w-[60px] h-[60px] md:w-[100px] md:h-[100px] lg:w-[80px] lg:h-[80px]  xl:w-[100px] xl:h-[100px]">
+              {/* <FaRegCalendarAlt /> */}
+              <Image
+                src="/ikony/prekvapeni.png"
                 alt="misto"
                 fill
                 className="object-center object-contain"
@@ -163,24 +180,8 @@ function Day() {
             </div>
             <div className="flex flex-col items-center justify-center text-left xl:text-center  md:text-[1.5rem] xl:text-[1rem] 2xl:text-[1.6rem]">
               <p>
-                Tanec
-                <br />
-                novomanželů
+                Překvapení
               </p>
-            </div>
-          </div>
-          <div className="h-full w-full  flex flex-row xl:flex-col items-center justify-start gap-5 xl:gap-0">
-            <div className="relative w-[60px] h-[60px] md:w-[100px] md:h-[100px] lg:w-[80px] lg:h-[80px]  xl:w-[100px] xl:h-[100px]">
-              {/* <FaRegCalendarAlt /> */}
-              <Image
-                src="/ikony/hry.png"
-                alt="misto"
-                fill
-                className="object-center object-contain"
-              />
-            </div>
-            <div className="flex flex-col items-center justify-center text-left xl:text-center  md:text-[1.5rem] xl:text-[1rem] 2xl:text-[1.6rem]">
-              <p>Svatební hry</p>
             </div>
           </div>
           <div className="h-full w-full  flex flex-row xl:flex-col items-center justify-start gap-5 xl:gap-0">
@@ -203,7 +204,7 @@ function Day() {
             <div className="relative w-[60px] h-[60px] md:w-[100px] md:h-[100px] lg:w-[80px] lg:h-[80px]  xl:w-[100px] xl:h-[100px]">
               {/* <FaRegCalendarAlt /> */}
               <Image
-                src="/ikony/prekvapeni.png"
+                src="/ikony/tanec.png"
                 alt="misto"
                 fill
                 className="object-center object-contain"
@@ -211,7 +212,9 @@ function Day() {
             </div>
             <div className="flex flex-col items-center justify-center text-left xl:text-center  md:text-[1.5rem] xl:text-[1rem] 2xl:text-[1.6rem]">
               <p>
-                Překvapení
+                Tanec
+                <br />
+                novomanželů
               </p>
             </div>
           </div>
